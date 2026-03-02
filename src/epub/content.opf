@@ -41,8 +41,20 @@
 			LONG_DESCRIPTION
 		</meta>
 		<dc:language>LANG</dc:language>
-		<dc:source>TRANSCRIPTION_URL</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
+		<!-- Atsumori -->
+		<dc:source>https://www.gutenberg.org/ebooks/43304</dc:source>
+		<dc:source>https://archive.org/details/in.ernet.dli.2015.99967</dc:source>
+		<!-- Takasago -->
+		<dc:source>https://archive.org/details/primitivemediaev00dickuoft</dc:source>
+		<!-- Sakuragawa -->
+		<dc:source>https://catalog.hathitrust.org/Record/100707803</dc:source>
+		<!-- Kinuta / Suma genji -->
+		<dc:source>https://archive.org/details/nohoraccomplishm00feno</dc:source>
+		<!-- Nishikigi -->
+		<dc:source>https://www.gutenberg.org/ebooks/8094</dc:source>
+		<dc:source>https://archive.org/details/nobleplaysjapan00fenorich</dc:source>
+		<!-- Yamanba -->
+		<dc:source>https://catalog.hathitrust.org/Record/000494613</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
