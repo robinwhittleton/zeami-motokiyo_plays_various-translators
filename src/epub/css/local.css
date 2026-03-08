@@ -154,6 +154,12 @@ p span.i4{
 	text-indent: -1em;
 }
 
+/* Elision in Sakuragawa */
+span.elision{
+	margin: .5em;
+	margin-left: 3em;
+}
+
 #atsumori-act-1 strong{
 	display: block;
 	text-align: center;
