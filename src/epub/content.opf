@@ -35,15 +35,13 @@
 		<meta property="term" refines="#subject-1">SUBJECT_1_LCSH_ID</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">SUBJECT_2_LCSH_ID</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="se:subject">Drama</meta>
+		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">A collection of Zeami Motokiyo’s plays, arranged in chronological order of translation.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
-		<dc:language>LANG</dc:language>
-		<!-- Atsumori -->
-		<dc:source>https://www.gutenberg.org/ebooks/43304</dc:source>
-		<dc:source>https://archive.org/details/in.ernet.dli.2015.99967</dc:source>
+		<dc:language>en-GB</dc:language>
 		<!-- Takasago -->
 		<dc:source>https://archive.org/details/primitivemediaev00dickuoft</dc:source>
 		<!-- Sakuragawa -->
@@ -55,48 +53,54 @@
 		<dc:source>https://archive.org/details/nobleplaysjapan00fenorich</dc:source>
 		<!-- Yamanba -->
 		<dc:source>https://catalog.hathitrust.org/Record/000494613</dc:source>
+		<!-- Atsumori -->
+		<dc:source>https://www.gutenberg.org/ebooks/43304</dc:source>
+		<dc:source>https://archive.org/details/in.ernet.dli.2015.99967</dc:source>
 		<meta property="se:production-notes">
-			• The introduction to Takasago was not transcribed to its seven-page length.
+			• The introduction to Takasago was not transcribed due to its seven-page length.
 		</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/zeami-motokiyo_plays_various-translators</meta>
 		<dc:creator id="author">Zeami Motokiyo</dc:creator>
-		<meta property="file-as" refines="#author">Motokiyo, Zeami</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="file-as" refines="#author">Zeami, Motokiyo</meta>
+		<meta property="alternate-script" refines="#author" xml:lang="ja">世阿弥 元清</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Zeami_Motokiyo</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50009758</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="translator-1">Arthur Waley</dc:contributor>
-		<meta property="file-as" refines="#translator-1">Waley, Arthur</meta>
-		<meta property="se:name.person.full-name" refines="#translator-1">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-1">https://en.wikipedia.org/wiki/Arthur_Waley</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-1">http://id.loc.gov/authorities/names/n79054650</meta>
+		<dc:contributor id="translator-1">Frederick Victor Dickins</dc:contributor>
+		<meta property="file-as" refines="#translator-1">Dickins, Frederick Victor</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-1">https://en.wikipedia.org/wiki/Frederick_Dickins</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-1">http://id.loc.gov/authorities/names/n86809984</meta>
+		<meta property="role" refines="#translator-1" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
-		<dc:contributor id="translator-2">Frederick Victor Dickins</dc:contributor>
-		<meta property="file-as" refines="#translator-2">Dickins, Frederick Victor</meta>
-		<meta property="se:name.person.full-name" refines="#translator-2">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-2">https://en.wikipedia.org/wiki/Frederick_Victor_Dickins</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/names/n86809984</meta>
+		<dc:contributor id="translator-2">George Sansom</dc:contributor>
+		<meta property="file-as" refines="#translator-2">Sansom, George</meta>
+		<meta property="se:name.person.full-name" refines="#translator-2">Sir George Bailey Sansom</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-2">https://en.wikipedia.org/wiki/George_Sansom</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-2">http://id.loc.gov/authorities/names/n50041640</meta>
+		<meta property="role" refines="#translator-2" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
-		<dc:contributor id="translator-3">George Sansom</dc:contributor>
-		<meta property="file-as" refines="#translator-3">Sansom, George</meta>
-		<meta property="se:name.person.full-name" refines="#translator-3">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-3">https://en.wikipedia.org/wiki/George_Sansom</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-3">http://id.loc.gov/authorities/names/n50041640</meta>
+		<dc:contributor id="translator-3">Ernest Fenollosa</dc:contributor>
+		<meta property="file-as" refines="#translator-3">Fenollosa, Ernest</meta>
+		<meta property="se:name.person.full-name" refines="#translator-3">Ernest Francisco Fenollosa</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-3">https://en.wikipedia.org/wiki/Ernest_Fenollosa</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-3">http://id.loc.gov/authorities/names/n50001186</meta>
+		<meta property="role" refines="#translator-3" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-3" scheme="marc:relators">trl</meta>
-		<dc:contributor id="translator-4">Ernest Fenollosa</dc:contributor>
-		<meta property="file-as" refines="#translator-4">Fenollosa, Ernest</meta>
-		<meta property="se:name.person.full-name" refines="#translator-4">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-4">https://en.wikipedia.org/wiki/Ernest_Fenollosa</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-4">http://id.loc.gov/authorities/names/n50001186</meta>
+		<dc:contributor id="translator-4">Yone Noguchi</dc:contributor>
+		<meta property="file-as" refines="#translator-4">Noguchi, Yone</meta>
+		<meta property="se:name.person.full-name" refines="#translator-4">Noguchi Yonejirō</meta>
+		<meta property="alternate-script" refines="#author" xml:lang="ja">野口 米次郎</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-4">https://en.wikipedia.org/wiki/Yone_Noguchi</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-4">http://id.loc.gov/authorities/names/n81110437</meta>
 		<meta property="role" refines="#translator-4" scheme="marc:relators">trl</meta>
-		<dc:contributor id="translator-5">Noguchi Yone</dc:contributor>
-		<meta property="file-as" refines="#translator-5">Yone, Noguchi</meta>
-		<meta property="se:name.person.full-name" refines="#translator-5">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-5">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator-5">CONTRIBUTOR_NACOAF_URI</meta>
+		<dc:contributor id="translator-5">Arthur Waley</dc:contributor>
+		<meta property="file-as" refines="#translator-5">Waley, Arthur</meta>
+		<meta property="se:name.person.full-name" refines="#translator-5">Arthur David Waley</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#translator-5">https://en.wikipedia.org/wiki/Arthur_Waley</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator-5">http://id.loc.gov/authorities/names/n79054650</meta>
+		<meta property="role" refines="#translator-5" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-5" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">Vincent van Gogh</dc:contributor>
 		<meta property="file-as" refines="#artist">van Gogh, Vincent</meta>
@@ -104,26 +108,35 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Vincent_van_Gogh</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79022935</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_1_URL</meta>
+		<dc:contributor id="transcriber-1">David Starner</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Starner, David</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-2">TRANSCRIBER_2_URL</meta>
-		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
+		<dc:contributor id="transcriber-2">Marlo Dianne</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Dianne, Marlo</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-3">Charles Franks</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Franks, Charles</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-4">Henry Flower</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Flower, Henry</meta>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-5">Distributed Proofreaders</dc:contributor>
+		<meta property="file-as" refines="#transcriber-5">Distributed Proofreaders</meta>
+		<meta property="se:url.homepage" refines="#transcriber-5">https://www.pgdp.net/</meta>
+		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
+		<dc:contributor id="markup-editor">David Widger</dc:contributor>
+		<meta property="file-as" refines="markup-editor">Widger, David</meta>
+		<meta property="se:url.authority.nacoaf" refines="markup-editor">http://id.loc.gov/authorities/names/no2011017869</meta>
+		<meta property="role" refines="markup-editor" scheme="marc:relators">mrk</meta>
+		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.robinwhittleton.com/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 	</metadata>
 	<manifest>
