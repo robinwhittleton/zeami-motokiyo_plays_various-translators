@@ -36,7 +36,7 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">SUBJECT_2_LCSH_ID</meta>
 		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A collection of Zeami Motokiyo’s plays, arranged in chronological order of translation.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
@@ -133,15 +133,31 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/atsumori.xhtml" id="atsumori.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/kinuta.xhtml" id="kinuta.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/nishikigi.xhtml" id="nishikigi.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/sakuragawa.xhtml" id="sakuragawa.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/suma-genji.xhtml" id="suma-genji.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/takasago.xhtml" id="takasago.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/yamanba.xhtml" id="yamanba.xhtml" media-type="application/xhtml+xml"/>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="takasago.xhtml"/>
+		<itemref idref="sakuragawa.xhtml"/>
+		<itemref idref="kinuta.xhtml"/>
+		<itemref idref="suma-genji.xhtml"/>
+		<itemref idref="nishikigi.xhtml"/>
+		<itemref idref="yamanba.xhtml"/>
+		<itemref idref="atsumori.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
