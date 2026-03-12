@@ -29,14 +29,11 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Plays</dc:title>
 		<meta property="file-as" refines="#title">Plays</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Nō plays</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">SUBJECT_1_LCSH_ID</meta>
-		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">SUBJECT_2_LCSH_ID</meta>
+		<meta property="term" refines="#subject-1">sh85092129</meta>
 		<meta property="se:subject">Drama</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A collection of Zeami Motokiyo’s plays, arranged in chronological order of translation.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
@@ -127,7 +124,7 @@
 		<dc:contributor id="markup-editor">David Widger</dc:contributor>
 		<meta property="file-as" refines="markup-editor">Widger, David</meta>
 		<meta property="se:url.authority.nacoaf" refines="markup-editor">http://id.loc.gov/authorities/names/no2011017869</meta>
-		<meta property="role" refines="markup-editor" scheme="marc:relators">mrk</meta>
+		<meta property="role" refines="#markup-editor" scheme="marc:relators">mrk</meta>
 		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://www.robinwhittleton.com/</meta>
