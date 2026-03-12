@@ -1,9 +1,12 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+abbr[epub|type~="se:era"]{
+	font-variant: all-small-caps;
+}
+
 /* Drama */
-[epub|type~="z3998:drama"] table,
-table[epub|type~="z3998:drama"]{
+[epub|type~="z3998:drama"] table{
 	border-collapse: collapse;
 	margin: 1em auto;
 	width: 100%;
@@ -42,7 +45,6 @@ table[epub|type~="z3998:drama"]{
 }
 
 [epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"],
-em [epub|type~="z3998:persona"],
 i [epub|type~="z3998:persona"]{
 	font-style: normal;
 }
@@ -76,14 +78,8 @@ tr.together td{
 	vertical-align: middle;
 }
 
-tr.together td:only-child,
 tr.together td + td{
 	border-left: 1px solid;
-}
-
-.together + .together td[rowspan],
-.together + .together td[rowspan] + td{
-	padding-top: .5em;
 }
 
 [epub|type~="z3998:drama"] .together td:last-child{
@@ -114,23 +110,28 @@ tr.together td + td{
 	margin-top: 2em;
 }
 
+/* Custom dramatis personae */
+[epub|type~="z3998:dramatis-personae"] ul li i{
+	font-style: normal;
+}
+
 /* Verse */
-[epub|type~="z3998:poem"] p{
+[epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] p + p{
+[epub|type~="z3998:verse"] p + p{
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:poem"] p > span{
+[epub|type~="z3998:verse"] p > span{
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
 }
 
-[epub|type~="z3998:poem"] p > span + br{
+[epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
 
@@ -149,9 +150,15 @@ p span.i3{
 	text-indent: -1em;
 }
 
-p span.i4{
-	padding-left: 5em;
-	text-indent: -1em;
+/* Verse headings in Nishikigi */
+[epub|type~="z3998:verse"] > div + div{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:verse"] header > p{
+	font-variant: small-caps;
+	margin: 0 1em 1em;
+	text-align: center;
 }
 
 /* Elision in Sakuragawa */
