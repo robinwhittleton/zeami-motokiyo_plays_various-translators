@@ -164,7 +164,3 @@ span.elision{
 	display: block;
 	text-align: center;
 }
-
-#atsumori-act-1 + p{
-	font-style: italic;
-}
