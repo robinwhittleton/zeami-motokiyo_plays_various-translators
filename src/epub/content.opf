@@ -36,7 +36,9 @@
 		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A collection of Zeami Motokiyo’s plays, arranged in chronological order of translation.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/zeami-motokiyo"&gt;Zeami Motokiyo&lt;/a&gt; is the most famous of the Noh playwrights. In the nearly six hundred years since his death, his exact output has become unsure; a majority of the Noh canon has been attributed to him at one point or another, but these days scholars believe he wrote somewhere between thirty and fifty plays. While Noh was built on earlier tradition, it was Zeami and his father as both actors and playwrights that established the basis for its long-running current form.&lt;/p&gt;
+			&lt;p&gt;Zeami’s subjects are varied. They range from the historical (&lt;i lang="ja-Latn"&gt;Atsumori&lt;/i&gt;), reinterpretation of classic fiction (&lt;i lang="ja-Latn"&gt;Suma Genji&lt;/i&gt;), horror (&lt;i lang="ja-Latn"&gt;Yamanba&lt;/i&gt;) or long-lasting love (&lt;i lang="ja-Latn"&gt;Takasago&lt;/i&gt;). While these stories are related by the named actors, an off-stage chorus take on many roles, including narration, describing the scenes, and voicing the thoughts of the characters.&lt;/p&gt;
+			&lt;p&gt;Contained in this collection are the English translations of plays currently directly attributed to Zeami in the &lt;abbr&gt;U.S.&lt;/abbr&gt; public domain, arranged in chronological order of translation.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<!-- Takasago -->
