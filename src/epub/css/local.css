@@ -5,6 +5,15 @@ abbr[epub|type~="se:era"]{
 	font-variant: all-small-caps;
 }
 
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
 /* Drama */
 [epub|type~="z3998:drama"] table{
 	border-collapse: collapse;
