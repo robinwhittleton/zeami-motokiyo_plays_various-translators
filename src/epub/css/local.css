@@ -202,6 +202,12 @@ p span.i14{
 	text-indent: -1em;
 }
 
+/* Margins for verse sections */
+p + div[epub|type~="z3998:verse"],
+div[epub|type~="z3998:verse"] + p{
+	margin-top: 1em;
+}
+
 /* Verse headings in Nishikigi */
 [epub|type~="z3998:verse"] > div + div{
 	margin-top: 1em;
