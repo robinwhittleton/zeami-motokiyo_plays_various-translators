@@ -29,14 +29,17 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Plays</dc:title>
 		<meta property="file-as" refines="#title">Plays</meta>
-		<dc:subject id="subject-1">Nō plays</dc:subject>
+		<dc:subject id="subject-1">Theater--Japan</dc:subject>
+		<dc:subject id="subject-2">Nō plays</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">sh85092129</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh85134557</meta>
+		<meta property="term" refines="#subject-2">sh85092129</meta>
 		<meta property="se:subject">Drama</meta>
 		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A collection of Zeami Motokiyo’s plays, arranged in chronological order of translation.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/zeami-motokiyo"&gt;Zeami Motokiyo&lt;/a&gt; is the most famous of the Noh playwrights. In the nearly six hundred years since his death, his exact output has become unsure; a majority of the Noh canon has been attributed to him at one point or another, but these days scholars believe he wrote somewhere between thirty and fifty plays. While Noh was built on earlier tradition, it was Zeami and his father as both actors and playwrights that established the basis for its long-running current form.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/zeami-motokiyo"&gt;Zeami Motokiyo&lt;/a&gt; is the most famous playwright in the Japanese theater form of Noh. In the nearly six hundred years since his death, his exact output has become unsure; a majority of the Noh canon has been attributed to him at one point or another, but these days scholars believe he wrote somewhere between thirty and fifty plays. While Noh was built on earlier tradition, it was Zeami and his father as both actors and playwrights that established the basis for its long-running current form.&lt;/p&gt;
 			&lt;p&gt;Zeami’s subjects are varied. They range from the historical (&lt;i lang="ja-Latn"&gt;Atsumori&lt;/i&gt;), reinterpretation of classic fiction (&lt;i lang="ja-Latn"&gt;Suma Genji&lt;/i&gt;), horror (&lt;i lang="ja-Latn"&gt;Yamanba&lt;/i&gt;) or long-lasting love (&lt;i lang="ja-Latn"&gt;Takasago&lt;/i&gt;). While these stories are related by the named actors, an off-stage chorus take on many roles, including narration, describing the scenes, and voicing the thoughts of the characters.&lt;/p&gt;
 			&lt;p&gt;Contained in this collection are the English translations of plays currently directly attributed to Zeami in the &lt;abbr&gt;U.S.&lt;/abbr&gt; public domain, arranged in chronological order of translation.&lt;/p&gt;
 		</meta>
